@@ -22,7 +22,7 @@
 $wgExtensionCredits['semantic'][] = array(
 	'path' => __FILE__,
 	'name' => 'SemanticMailMerge',
-	'version' => '0.0.1',
+	'version' => '0.0.2',
 	'author' => '[http://mediawiki.org/wiki/User:Samwilson Sam Wilson]',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:SemanticMailMerge',
 	'descriptionmsg' => 'semanticmailmerge-desc'
@@ -34,8 +34,8 @@ $wgAutoloadClasses['SemanticMailMerge_Sender'] = __DIR__ . '/includes/Sender.php
  * Result Format
  */
 $wgAutoloadClasses['SemanticMailMerge_ResultFormat'] = __DIR__ . '/includes/ResultFormat.php';
-$srfgFormats[] = 'emails';
-$smwgResultFormats['emails'] = 'SemanticMailMerge_ResultFormat';
+$srfgFormats[] = 'mailmerge';
+$smwgResultFormats['mailmerge'] = 'SemanticMailMerge_ResultFormat';
 
 /**
  * Database table
