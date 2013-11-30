@@ -37,5 +37,13 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
     'semanticmailmerge' => "The name of this extension.",
-    'semanticmailmerge-desc' => '{{desc|name=SemanticMailMerge|url=http://www.mediawiki.org/wiki/Extension:SemanticMailMerge}}',
+    'semanticmailmerge-desc' => '{{desc|name=SemanticMailMerge|url=https://www.mediawiki.org/wiki/Extension:SemanticMailMerge}}',
+);
+
+/** German (Deutsch)
+* @author Kghbln
+*/
+$messages['de'] = array(
+    'semanticmailmerge' => 'SemanticMailMerge',
+    'semanticmailmerge-desc' => 'Ermöglicht das Versenden des Ergebnisses einer semantischen Abfrage per E-Mail',
 );
